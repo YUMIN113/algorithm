@@ -14,16 +14,14 @@
 // - 예제 입력 및 출력
 // The Curious Case of Benjamin Button / 6
 
-
+// 방법1
 package com.ycs.al.ex01;
 
 public class Exam02 {
   public static void main(String[] args) {
     
     java.util.Scanner keyboardInput = new java.util.Scanner(System.in);
-
     System.out.println("문자열을 입력하시오.");
-
     String str = keyboardInput.nextLine();
 
     java.util.StringTokenizer s = new java.util.StringTokenizer(str);
@@ -34,3 +32,22 @@ public class Exam02 {
 
   }
 }
+
+// 방법2
+// package com.ycs.al.ex01;
+
+// public class Exam02 {
+//   public static void main(String[] args) {
+    
+//     java.util.Scanner keyboardInput = new java.util.Scanner(System.in);
+//     System.out.println("문자열을 입력하시오.");
+//     String str = keyboardInput.nextLine();
+
+//     int result = str.split(" ").length; // arr.length와 비슷한 형식
+
+//     System.out.println();
+//     System.out.println(result);
+//     keyboardInput.close();
+
+//   }
+// }

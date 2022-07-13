@@ -50,5 +50,6 @@ public class Exam01 {
       }
       flag = false;
     }
+      keyboardInput.close();
   }
 }  
