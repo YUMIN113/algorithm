@@ -13,7 +13,7 @@
 // 100 / A
 
 
-package com.ycs.al.ex01;
+package com.ycs.al.week01;
 
 public class Exam01 {
   public static void main(String[] args) {

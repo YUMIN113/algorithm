@@ -15,7 +15,7 @@
 // The Curious Case of Benjamin Button / 6
 
 // 방법1
-package com.ycs.al.ex01;
+package com.ycs.al.week01;
 
 public class Exam02 {
   public static void main(String[] args) {
