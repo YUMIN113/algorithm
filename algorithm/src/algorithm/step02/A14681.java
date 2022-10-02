@@ -60,6 +60,7 @@ public class A14681 {
 
       break;
     }
+    sc.close();
   }
 }
 

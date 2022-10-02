@@ -55,5 +55,7 @@ public class A2884 {
     	System.out.println(60 - 45 + M);	
         }  
 	}
+    
+    sc.close();
   }
 }
