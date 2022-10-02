@@ -35,29 +35,29 @@ public class A2525 {
 	
     Scanner sc = new Scanner(System.in);
     
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
+    int hh = sc.nextInt();
+    int mm = sc.nextInt();
+    int cookTime = sc.nextInt();
     
-    a = a + (c / 60);
-    b = b + (c % 60);
+    hh = hh + (cookTime / 60);
+    mm = mm + (cookTime % 60);
     
-    if (a >= 24 && b < 60) {
-      a = a - 24;
-    } else if (a >= 24 && b >= 60) {
-      a = (a - 24) + 1;
-      b = b - 60;
-    } else if (a < 24 && b >= 60) {
-      if (a == 23) {
-        a = (a -24) + 1;
-        b = b - 60;
+    if (hh >= 24 && mm < 60) {
+      hh = hh - 24;
+    } else if (hh >= 24 && mm >= 60) {
+      hh = (hh - 24) + 1;
+      mm = mm - 60;
+    } else if (hh < 24 && mm >= 60) {
+      if (hh == 23) {
+        hh = (hh -24) + 1;
+        mm = mm - 60;
       } else {
-    	a = a + 1;
-    	b = b - 60;
+    	hh = hh + 1;
+    	mm = mm - 60;
       }
     }
   
-    System.out.printf("%d\t%d", a, b);
+    System.out.printf("%d\t%d", hh, mm);
     
     sc.close();
     

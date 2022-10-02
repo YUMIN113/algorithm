@@ -39,20 +39,20 @@ public class A2884 {
   
     Scanner sc = new Scanner(System.in);
     
-    int H = sc.nextInt();
-    int M = sc.nextInt();
+    int hh = sc.nextInt();
+    int mm = sc.nextInt();
    
-    if (45 <= M && 60 > M) {
-    	System.out.println(H);
-    	System.out.println(M - 45);
+    if (45 <= mm && 60 > mm) {
+    	System.out.println(hh);
+    	System.out.println(mm - 45);
     	
-    } else if (0 <= M && 45 > M) {
-    	if (0 == H) {
+    } else if (0 <= mm && 45 > mm) {
+    	if (0 == hh) {
     	  System.out.println(23);
-          System.out.println(60 - 45 + M);
+          System.out.println(60 - 45 + mm);
     	} else {
-    	System.out.println(H - 1);
-    	System.out.println(60 - 45 + M);	
+    	System.out.println(hh - 1);
+    	System.out.println(60 - 45 + mm);	
         }  
 	}
     
