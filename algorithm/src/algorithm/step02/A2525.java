@@ -49,7 +49,7 @@ public class A2525 {
       mm = mm - 60;
     } else if (hh < 24 && mm >= 60) {
       if (hh == 23) {
-        hh = (hh -24) + 1;
+        hh = (hh - 24) + 1;
         mm = mm - 60;
       } else {
     	hh = hh + 1;
