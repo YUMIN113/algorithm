@@ -27,41 +27,41 @@
 
 package algorithm.step03;
 
-//import java.util.Scanner;
-//
-//public class A2739 {
-//
-//  public static void main(String[] args) {
-//    
-//    Scanner sc = new Scanner(System.in);
-//    int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-//    
-//    int no = sc.nextInt();
-//    
-//    for (int i = 0;i < arr.length; i++) {
-//      int result = no * arr[i];
-//      System.out.printf("%d * %d = %d\n", no, arr[i], result);
-//    }
-//    
-//    sc.close();
-//    
-//	}
-//}
-
-// 다른 방법
-
 import java.util.Scanner;
 
 public class A2739 {
 
   public static void main(String[] args) {
+    
     Scanner sc = new Scanner(System.in);
+    int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    
     int no = sc.nextInt();
     
-    for (int i = 1; i < 10; i++) {
-      System.out.println(no + " * " + i + " = " + no * i);
+    for (int i = 0;i < arr.length; i++) {
+      int result = no * arr[i];
+      System.out.printf("%d * %d = %d\n", no, arr[i], result);
     }
     
     sc.close();
-  }
+    
+	}
 }
+
+// 다른 방법
+//
+//import java.util.Scanner;
+//
+//public class A2739 {
+//
+//  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//    int no = sc.nextInt();
+//    
+//    for (int i = 1; i < 10; i++) {
+//      System.out.println(no + " * " + i + " = " + no * i);
+//    }
+//    
+//    sc.close();
+//  }
+//}
