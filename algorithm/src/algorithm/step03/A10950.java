@@ -34,22 +34,22 @@ public class A10950 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+	  Scanner sc = new Scanner(System.in);
 		
-		int t = sc.nextInt();
-		int[] arr = new int[t];
+	  int t = sc.nextInt();
+	  int[] arr = new int[t];
 		
-		for (int i = 0; i < arr.length; i++) {
-		  int a = sc.nextInt();
-	      int b = sc.nextInt();
-	      arr[i] = a + b;
-		}
-		for (int result : arr) {
-			System.out.println(result);
-		}
-//		for (int i = 0; i < arr.length; i++) {
-//			System.out.println(arr[i]);
-//		}
-		sc.close();
+	  for (int i = 0; i < arr.length; i++) {
+	    int a = sc.nextInt();
+	    int b = sc.nextInt();
+	    arr[i] = a + b;
+	  }
+	  for (int result : arr) {
+	    System.out.println(result);
+	  }
+//	  for (int i = 0; i < arr.length; i++) {
+//	    System.out.println(arr[i]);
+//	  }
+	  sc.close();
 	}
 }
