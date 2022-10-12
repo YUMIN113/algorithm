@@ -31,8 +31,8 @@ public class A8393 {
 	  for (int i = 1; i <= n; i++) {
 	    sum += i;
 	  }
-	  System.out.println(sum);
-      sc.close();
+	System.out.println(sum);
+    sc.close();
 	}
 
 }
@@ -47,6 +47,7 @@ public class A8393 {
 //	  
 //	  int sum = (1 + n) * n / 2;
 //	  System.out.println(sum);
-//      sc.close();
+
+//    sc.close();
 //	}
 //}
