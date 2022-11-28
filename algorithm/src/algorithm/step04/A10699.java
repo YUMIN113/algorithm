@@ -28,5 +28,5 @@ public class A10699 {
 }
 
 
-// LocalDate Class : 년, 월, 일 정보만 가짐
-// LocalDate.now() : 오늘 년, 월, 일 정보 나타
+// LocalDate Class : 년, 월, 일 정보만 가짐.
+// LocalDate.now() : 오늘 년, 월, 일 정보 나타냄.
