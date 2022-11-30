@@ -33,15 +33,15 @@ public class A10872 {
 
 	public static void main(String[] args) throws IOException {
 	  
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       
-      int result = 1;
+        int result = 1;
       
-      int factorial = Integer.parseInt(br.readLine());
+        int factorial = Integer.parseInt(br.readLine());
       
-      br.close();
+        br.close();
       
-      for(int i = 1; i <= factorial; i++) {
+        for(int i = 1; i <= factorial; i++) {
     	  
     	  result = result * i;
     	  
@@ -61,15 +61,15 @@ public class A10872 {
 
 // 다른 방법
 
-//package algorithm.step04;
+// package algorithm.step04;
 //
-//import java.io.BufferedReader;
-//import java.io.IOException;
-//import java.io.InputStreamReader;
+// import java.io.BufferedReader;
+// import java.io.IOException;
+// import java.io.InputStreamReader;
 //
-//public class A10872 {
+// public class A10872 {
 //
-//	public static void main(String[] args) throws IOException {
+//	 public static void main(String[] args) throws IOException {
 //	  
 //      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //      
@@ -87,6 +87,6 @@ public class A10872 {
 //     
 //        System.out.println(result);
 //
-//	}
+//	 }
 //
-//}
+// }
