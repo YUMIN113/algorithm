@@ -12,3 +12,5 @@ public class A2743 {
         System.out.println(br.readLine().length());
     }
 }
+
+// 문자열 길이 재기 : length()
