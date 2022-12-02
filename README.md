@@ -1,5 +1,8 @@
 # algorithm/step04
 
+- 2022.12.02
+1) [백준_10871번_X보다 작은 수](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A10871.java)
+
 - 2022.12.01
 1) [백준_2743번_단어 길이 재기](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A2743.java)
 
