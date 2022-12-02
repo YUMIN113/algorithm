@@ -44,6 +44,8 @@ public class A10871 {
         br.close();
 
         String[] numberStrs = numberLine.split(" ");
+
+        // String > int 변환
         int[] numbers = new int[numberStrs.length];
         for(int i = 0; i < numberStrs.length; i++) {
             numbers[i] = Integer.parseInt(numberStrs[i]);
@@ -81,7 +83,8 @@ public class A10871 {
 //
 //        String numberLine = br.readLine();
 //        br.close();
-
+//
+//        // String > int 변환
 //        List<Integer> arr =
 //                Arrays.stream(numberLine.split(" "))
 //                      .map(it -> Integer.parseInt(it))
