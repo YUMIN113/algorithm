@@ -1,5 +1,8 @@
 # algorithm/step04
 
+- 2022.12.03
+1) [백준_5597번_과제 안 내신 분..?](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A5597.java)
+
 - 2022.12.02
 1) [백준_10871번_X보다 작은 수](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A10871.java)
 2) [백준_10807번_개수 세기](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A10807.java)
