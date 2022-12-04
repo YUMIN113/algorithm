@@ -1,5 +1,8 @@
 # algorithm/step04
 
+- 2022.12.04
+1) [백준_2738번_행렬 덧셈](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A2738.java)
+
 - 2022.12.03
 1) [백준_5597번_과제 안 내신 분..?](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step04/A5597.java)
 
