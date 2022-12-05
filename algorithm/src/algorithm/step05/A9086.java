@@ -49,7 +49,7 @@ public class A9086 {
 // 문자열에서 인자로 주어진 값에 해당하는 문자를 리턴한다.
 // index는 '0'부터 시작.
 
-// String.valueOf() 통해서 char 를 String 으로 변환
+// String.valueOf() 통해서 char 를 String 으로 변환.
 // The java string valueOf() method converts different types of values into string.
 
 // String.valueOf() vs Object.toString()
