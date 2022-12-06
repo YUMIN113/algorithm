@@ -1,5 +1,8 @@
 # algorithm/step05
 
+- 2022.12.06
+1)[백준_15964번_이상한 기호](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step05/A15964.java)
+
 - 2022.12.05
 1) [백준_11718번_그대로 출력하기](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step05/A11718.java)
 2) [백준_9086번_문자열](https://github.com/YUMIN113/algorithm/blob/main/algorithm/src/algorithm/step05/A9086.java)
